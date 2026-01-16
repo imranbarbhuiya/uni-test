@@ -7,6 +7,5 @@ const config = getDefaultConfig(__dirname);
 
 module.exports = withUniwindConfig(config, {
   cssEntryFile: './globals.css',
-  extraThemes: ['sepia', 'bubblegum'],
   debug: true,
 });
