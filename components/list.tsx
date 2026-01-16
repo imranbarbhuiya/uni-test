@@ -28,7 +28,7 @@ export const ListSection = function ListSection({
         >
           <ThemedText
             className={cn(
-              'text-muted-foreground a items-center text-sm font-semibold',
+              'text-muted-foreground items-center text-sm font-semibold',
               className
             )}
             variant="caption1"
